@@ -1,0 +1,26 @@
+Workshop 2 Reflection
+1) You must allocate new dynamic memory when you increase the size of an existing array because if you were to not 
+allocate new memory when doing so, the already allocated dynamic memory would go out of scope making it lose the values 
+and then the oringinal values would not be accessible in the new dynamically allocated memoy. So instead, we would 
+allocate new memory and copy the originally allocated memory into the newly larger one.
+2) No we do not have a memory leak because in order to have a memory leak, it has to be one of two things happening: the 
+pointer to dynamic memory goes out of schope before the application deallocates that memory or the pointer to dynamic 
+memory changes its value before the application deallocates the memory starting at the address stored in that pointer. 
+Being that the data within the Kingdom structure was successfully printed by the display function, it does not fit either 
+requirement for it to be considered a memory leak.
+3) The compiler will know which display function to be called based on the argument types in the function call. So, 
+depending on what arguement is used within the display function, it will call the appropriate one that is needed to 
+fulfil the set requirements.
+4) Being that this is the first workshop that including actual writing of code, I have learned a number of different 
+things such as how to allocate and deallocate dynamic memory, the use of static memory, how useful overloading a function 
+is, and how to allocate new dynamic memory when you increase the size of an array. From my experience of this workshop 
+it is especially important to understand the allocation of dynamic memory as it was a confusing concept when having to 
+allocate new dynamic memory for an existing array.
+
+Quiz 2 Reflection 
+Explain the purpose of a constructor in a class: 
+A constructor is a kind of member function that initializes an instance of its class.
+Explain the purpose of a destructor in a class: 
+The purpose of the destructor is to free the resources that the object may have acquired during its lifetime.
+Describe a situation when a class does not have a default constructor: 
+When you do not define the function therefore one will be synthesized for you requiring no arguements.

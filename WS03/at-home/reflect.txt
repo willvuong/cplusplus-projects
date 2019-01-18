@@ -1,0 +1,15 @@
+Workshop 3 Reflection
+1) The size of the character string is 41 to store 40 characters. This is because the extra 1 space is to store the null 
+\0 character, telling that the string is empty if nothing is store within it.
+2) C++ allows declarations of two member functions as in C++ programming, overloading of functions is allowed. This means 
+that the compiler in C++ knows to determine the function that is being called by matching the specified parameters of the 
+function. So, if a function called someFunction had two defintions, one requiring one int and the other requires two ints, 
+the compiler will know to call the second function if the call of someFunction had two int parameters.
+3) I have learned the usage and importance of an empty state. An empty state is useful because it can easily get rid (more 
+specifically: reset values) to 0 when necessary. The empty state was important and useful within this workshop as it 
+required for some inputted values to be discarded because it did not fit within the specifications of being a valid SIN 
+number.
+
+Quiz 3 Reflection
+Determine how the compiler knows which object to use.
+By using the (*this) command.

@@ -1,0 +1,24 @@
+1. No, as a parent class, Hero can be used by base classes and not need to have knowledge of this.
+2. Yes, this is because in order for the SuperHero class to be able to parent class, Hero, it must include it using the 
+#include tag. Without this, the SuperHero would have no idea of the existence of Hero and would not be able to inherit its 
+functions and attributes.
+3. It printed out "Ancient Battle"; same as when two Heros fight. This is because when a Hero and SuperHero fight, the 
+SuperHero is not permitted to use its SuperHero attack bonus nor its defence, this only allowing for its regular attack. 
+Subsequently, turning it into a Hero battle instead of a SuperHero battle where SuperHero attack bonuses and defence are 
+permitted.
+4. False, neither one of the instances provided would be valid in the main function. This is because in both instances, 
+there is no object that holds the set values for the Hero. The Hero object must be given a name in order to be referenced 
+later within the main(). A proper instance would look like Hero Achilles ("Achilles", 20, 6). Achilles (an object of Hero) 
+will hold the values of Achilles (name), 20 (health), 6 (attack).
+
+Quiz 8
+Q: Explain what inheritance is, one of the main characteristics in OOP.
+A: Inheritance is the process of creating new classes from existing classes. The new class inherits some of the properties 
+and behaviors of the existing class. A parent is class is the existing class and a base class is the new class that 
+inherits from the parent.
+
+Q: Describe in English (no code!) a situation where it makes sense to use inheritance in your code.
+A: An instance where inheritance would be useful or be used is like a situation like this lab. Inhertance is used as 
+SuperHeros are a subset of Heros. So in order to classify SuperHeros as Heros also, we inherit the Hero class but also 
+add addition values such as the SuperHero's attack bonus and defence which makes it unique and defines it as SuperHero 
+instead of a regular Hero.

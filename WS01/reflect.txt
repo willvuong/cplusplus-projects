@@ -1,0 +1,21 @@
+Lab 1 Reflection
+1. A namespace is a section within a code where it holds a grouping of its own unique identifiers or symbols specific to 
+its own namespace; identifiers and symbols within a namespace only apply to its namespace that is is enclosed in. The 
+purpose for a namespace is so that it can hold its own specific identifiers and symbols without conflict with other 
+namespaces that may use the same name for it's identifiers and symbols. This is benificial as it will not lead to 
+complications when compiling the code. 
+2. Header files are needed as they contain declarations and defitions that can be used within multiple source files if 
+needed. This is benificial because rather than constantly rewriting the necessary code, you can just include the header 
+file within the source file by writing: #include <(header file.h)>, instead.
+3. Header files are never compliled as they do not hold any significant value as far as coding for an actual running 
+program. The purpose of a source file is to assist to a source file(s). If you were to compile a source file, nothing 
+would happen because header files only contain decalarations and functions.
+4. You should never include .cpp files into another file as it would mess up how the program runs. When you include a .cpp 
+file into another file, the program cannot differentiate that of a source file between a header file. This will 
+subsequently lead to redefinition errors as there may be several of the same defintions within two soruce files making the 
+program unable to run correctly.
+5. In this workshop I have learned the purpose of having multiple source and header files, and how to impliment them 
+within a code. I have also learned the importance, benifits, and usage of namespaces.
+
+Quiz 1 Reflection
+Polymorphism - the condition of occurring in several different forms.

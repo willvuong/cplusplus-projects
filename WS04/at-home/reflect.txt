@@ -1,0 +1,19 @@
+Lab 4 Reflection
+1) A safe empty state is where members of a certain class's values get set to empty (the value 'empty' varies between the 
+type of variable it is, int = 0, char = "", etc). An empty state only works for a constructor because this allows for the 
+values to be changed for that specific item within an object therefore you cannot define another state as the safe empty 
+state.
+2) In order to have minimized code duplication I used functions such as isEmpty() when needed to make sure the information 
+being passed to a function was valid or not. Furthermore, the empty state Passenger() was used to store/reset values to 
+empty when neccesary. When setting an object to a safe empty state, I used the code *this = Passenger(); instead of 
+rewriting the values that would make the object an empty state several times. 
+3) This is because of the (const Passenger &) part of the code. This allows for the function to access the values stored 
+within the Passenger class while assigning a specified name that will allow access. In my case I entered & tempPassenger, 
+which assigns values of the const Passenger class to the name tempPassenger. So when I compare values in this function 
+I will use tempPassenger (example: strcmp(this->destination, tempPassenger.destination).
+4) You need to add the size of the string at the end (const int length = 32).
+5) I learned the usage of the *this keyword and how it can be utilized within a function. *This was important and useful 
+in this lab as it allowed us to indicate the current object within a function, specifically the canTravelWith function and 
+made it easier to compare between two objects.
+
+

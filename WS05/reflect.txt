@@ -1,0 +1,11 @@
+Lab 5 Reflection
+1. The operator+ should return a fraction object and not a reference because in this instance, this function is evaluating 
+the sum of two specific objects (fractions) and reducing it into it's lowest form then returns it thus being a referenece 
+to a fraction object. If you were to return the fraction object then it would return all the fractions within the object 
+instead of one that you are trying to add two together with.
+2. b when it changes from 1/3 to 1/2 when it goes through the += operator function. This happens as this function adds b 
+and d and replaces the value of b with the sum of the two fractions.
+3. The word Fraction was deleted several times from the overload operators.
+4. I have learned how to overload an operator function and the purpose for it. Simply by specifying the word 'operator' 
+followed by the desired operator allows for the specific operator to evaluate two objects. This is useful because as 
+programmers we can evaluate several different things with several different cases with a set of values (object).
