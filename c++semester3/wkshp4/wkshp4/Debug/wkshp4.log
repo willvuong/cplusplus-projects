@@ -1,0 +1,9 @@
+﻿  Message.cpp
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp4\wkshp4\message.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp4\wkshp4\message.cpp(26): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  w5.cpp
+  Notifications.cpp
+  wkshp4.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp4\Debug\wkshp4.exe
+  wkshp4.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp4\Debug\wkshp4.pdb (Full PDB)

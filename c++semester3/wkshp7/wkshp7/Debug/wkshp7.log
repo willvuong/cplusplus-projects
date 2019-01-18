@@ -1,0 +1,30 @@
+﻿  w8.cpp
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(57): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(54): note: while compiling class template member function 'void w8::DataTable<float>::regression(T &,T &) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\w8.cpp(37): note: see reference to function template instantiation 'void w8::DataTable<float>::regression(T &,T &) const' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\w8.cpp(31): note: see reference to class template instantiation 'w8::DataTable<float>' being compiled
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(50): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(47): note: while compiling class template member function 'float w8::DataTable<float>::median(void) const'
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\w8.cpp(42): note: see reference to function template instantiation 'float w8::DataTable<float>::median(void) const' being compiled
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(51): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(41): warning C4018: '<': signed/unsigned mismatch
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(39): note: while compiling class template member function 'float w8::DataTable<float>::sigma(void) const'
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\w8.cpp(42): note: see reference to function template instantiation 'float w8::DataTable<float>::sigma(void) const' being compiled
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(20): note: while compiling class template member function 'w8::DataTable<float>::DataTable(std::ifstream &,int,int)'
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\w8.cpp(31): note: see reference to function template instantiation 'w8::DataTable<float>::DataTable(std::ifstream &,int,int)' being compiled
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(65): warning C4018: '<': signed/unsigned mismatch
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(62): note: while compiling class template member function 'void w8::DataTable<float>::display(std::ostream &) const'
+  c:\users\willi\desktop\seneca\semester 3\oop\wkshp7\wkshp7\datatable.h(72): note: see reference to function template instantiation 'void w8::DataTable<float>::display(std::ostream &) const' being compiled
+  wkshp7.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp7\Debug\wkshp7.exe
+  wkshp7.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp7\Debug\wkshp7.pdb (Full PDB)

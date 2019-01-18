@@ -1,0 +1,6 @@
+﻿  w4.cpp
+c:\users\willi\desktop\seneca\semester 3\wkshp3\wkshp3\w4.cpp(23): warning C4101: 'width': unreferenced local variable
+c:\users\willi\desktop\seneca\semester 3\wkshp3\wkshp3\w4.cpp(12): warning C4018: '<': signed/unsigned mismatch
+  c:\users\willi\desktop\seneca\semester 3\wkshp3\wkshp3\w4.cpp(46): note: see reference to function template instantiation 'void display<std::string,double,5>(const std::string &,const KVList<std::string,double,5> &,int)' being compiled
+  wkshp3.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\wkshp3\Debug\wkshp3.exe
+  wkshp3.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\wkshp3\Debug\wkshp3.pdb (Full PDB)

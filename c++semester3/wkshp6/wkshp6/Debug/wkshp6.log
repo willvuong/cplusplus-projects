@@ -1,0 +1,10 @@
+﻿  TaxableProduct.cpp
+  Sale.cpp
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp6\wkshp6\sale.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  Product.cpp
+  Generating Code...
+c:\users\willi\desktop\seneca\semester 3\oop\wkshp6\wkshp6\product.cpp(54): warning C4715: 'w7::readProduct': not all control paths return a value
+  Skipping... (no relevant changes detected)
+  w7.cpp
+  wkshp6.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp6\Debug\wkshp6.exe
+  wkshp6.vcxproj -> C:\Users\willi\Desktop\seneca\semester 3\oop\wkshp6\Debug\wkshp6.pdb (Full PDB)
